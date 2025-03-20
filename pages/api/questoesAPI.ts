@@ -1,4 +1,4 @@
-let questions = [
+const questions = [
   {
     id: 1,
     enunciado: 'Qual é a fórmula geral dos ácidos carboxílicos?',
@@ -197,14 +197,10 @@ interface Question {
   alternativa_correta: string
 }
 
-interface UserAnswer {
-  id: number
-  resposta: string
-}
 
 export default function fetcher(req: NextApiRequest, res: NextApiResponse) {
   // Função para embaralhar um array
-  const shuffleArray = (array: any[]): void => {
+  const shuffleArray = (array: Question[] | string[]): void => {
     for (let i = array.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1))
       ;[array[i], array[j]] = [array[j], array[i]] // Troca os elementos
