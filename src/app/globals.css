@@ -128,3 +128,7 @@ html, body{
   height: 100vh;
   font-family: "Inter", sans-serif;
 }
+
+button.ring-offset-background > svg.lucide-x {
+  display: none;
+}

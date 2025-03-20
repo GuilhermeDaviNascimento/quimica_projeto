@@ -40,152 +40,152 @@ const questions = [
     alternativas: ['Aromatizantes', 'Combustíveis', 'Plásticos', 'Explosivos'],
     alternativa_correta: 'Aromatizantes',
   },
-  // {
-  //   id: 6,
-  //   enunciado: 'Os ácidos carboxílicos possuem qual grupo funcional?',
-  //   alternativas: [
-  //     'Carboxila (-COOH)',
-  //     'Hidroxila (-OH)',
-  //     'Amina (-NH2)',
-  //     'Carbonila (-C=O)',
-  //   ],
-  //   alternativa_correta: 'Carboxila (-COOH)',
-  // },
-  // {
-  //   id: 7,
-  //   enunciado:
-  //     'Qual é a nomenclatura correta para o ácido carboxílico de fórmula C3H7COOH?',
-  //   alternativas: [
-  //     'Ácido butanoico',
-  //     'Ácido propanoico',
-  //     'Ácido metanoico',
-  //     'Ácido etanoico',
-  //   ],
-  //   alternativa_correta: 'Ácido butanoico',
-  // },
-  // {
-  //   id: 8,
-  //   enunciado: 'Qual é a reação inversa da esterificação?',
-  //   alternativas: ['Hidrólise', 'Neutralização', 'Oxidação', 'Polimerização'],
-  //   alternativa_correta: 'Hidrólise',
-  // },
-  // {
-  //   id: 9,
-  //   enunciado: 'Os ésteres são frequentemente utilizados como?',
-  //   alternativas: [
-  //     'Aromatizantes',
-  //     'Aditivos combustíveis',
-  //     'Fertilizantes',
-  //     'Antibióticos',
-  //   ],
-  //   alternativa_correta: 'Aromatizantes',
-  // },
-  // {
-  //   id: 10,
-  //   enunciado:
-  //     'Qual é o nome do éster formado pela reação entre ácido butanoico e metanol?',
-  //   alternativas: [
-  //     'Butanoato de metila',
-  //     'Metanoato de butila',
-  //     'Metanoato de etila',
-  //     'Butanoato de etila',
-  //   ],
-  //   alternativa_correta: 'Butanoato de metila',
-  // },
-  // {
-  //   id: 11,
-  //   enunciado:
-  //     'Os ácidos carboxílicos podem ser obtidos por qual tipo de reação?',
-  //   alternativas: [
-  //     'Oxidação de álcoois',
-  //     'Hidrólise de ésteres',
-  //     'Hidrogenação de alcenos',
-  //     'Substituição nucleofílica',
-  //   ],
-  //   alternativa_correta: 'Oxidação de álcoois',
-  // },
-  // {
-  //   id: 12,
-  //   enunciado: 'Os ésteres possuem qual grupo funcional característico?',
-  //   alternativas: ['-COO-', '-OH', '-NH2', '-COH'],
-  //   alternativa_correta: '-COO-',
-  // },
-  // {
-  //   id: 13,
-  //   enunciado: 'Qual das seguintes substâncias é um éster?',
-  //   alternativas: ['Acetato de etila', 'Ácido fórmico', 'Etanol', 'Glicerol'],
-  //   alternativa_correta: 'Acetato de etila',
-  // },
-  // {
-  //   id: 14,
-  //   enunciado:
-  //     'A hidrólise de um éster em meio ácido resulta na formação de quais compostos?',
-  //   alternativas: [
-  //     'Ácido carboxílico e álcool',
-  //     'Aldeído e álcool',
-  //     'Éter e água',
-  //     'Amida e ácido',
-  //   ],
-  //   alternativa_correta: 'Ácido carboxílico e álcool',
-  // },
-  // {
-  //   id: 15,
-  //   enunciado: 'Os ácidos carboxílicos podem ser reduzidos a quais compostos?',
-  //   alternativas: ['Aldeídos e álcoois', 'Ésteres', 'Cetonas', 'Aminas'],
-  //   alternativa_correta: 'Aldeídos e álcoois',
-  // },
-  // {
-  //   id: 16,
-  //   enunciado: 'A que classe de compostos pertencem os ésteres?',
-  //   alternativas: [
-  //     'Derivados de ácidos carboxílicos',
-  //     'Hidrocarbonetos',
-  //     'Aldeídos',
-  //     'Cetonas',
-  //   ],
-  //   alternativa_correta: 'Derivados de ácidos carboxílicos',
-  // },
-  // {
-  //   id: 17,
-  //   enunciado:
-  //     'Os ésteres podem ser obtidos pela reação entre quais compostos?',
-  //   alternativas: [
-  //     'Ácido carboxílico e álcool',
-  //     'Cetona e álcool',
-  //     'Aldeído e amina',
-  //     'Álcool e éter',
-  //   ],
-  //   alternativa_correta: 'Ácido carboxílico e álcool',
-  // },
-  // {
-  //   id: 18,
-  //   enunciado: 'Qual é o nome do ácido carboxílico presente no vinagre?',
-  //   alternativas: [
-  //     'Ácido acético',
-  //     'Ácido butanoico',
-  //     'Ácido fórmico',
-  //     'Ácido benzóico',
-  //   ],
-  //   alternativa_correta: 'Ácido acético',
-  // },
-  // {
-  //   id: 19,
-  //   enunciado: 'Os ésteres são responsáveis por quais propriedades em frutas?',
-  //   alternativas: [
-  //     'Aroma e sabor',
-  //     'Cor e textura',
-  //     'Dureza e resistência',
-  //     'Amargor e toxicidade',
-  //   ],
-  //   alternativa_correta: 'Aroma e sabor',
-  // },
-  // {
-  //   id: 20,
-  //   enunciado:
-  //     'A reação de saponificação de um éster forma qual composto principal?',
-  //   alternativas: ['Sabão', 'Álcool', 'Aldeído', 'Cetonas'],
-  //   alternativa_correta: 'Sabão',
-  // },
+  {
+    id: 6,
+    enunciado: 'Os ácidos carboxílicos possuem qual grupo funcional?',
+    alternativas: [
+      'Carboxila (-COOH)',
+      'Hidroxila (-OH)',
+      'Amina (-NH2)',
+      'Carbonila (-C=O)',
+    ],
+    alternativa_correta: 'Carboxila (-COOH)',
+  },
+  {
+    id: 7,
+    enunciado:
+      'Qual é a nomenclatura correta para o ácido carboxílico de fórmula C3H7COOH?',
+    alternativas: [
+      'Ácido butanoico',
+      'Ácido propanoico',
+      'Ácido metanoico',
+      'Ácido etanoico',
+    ],
+    alternativa_correta: 'Ácido butanoico',
+  },
+  {
+    id: 8,
+    enunciado: 'Qual é a reação inversa da esterificação?',
+    alternativas: ['Hidrólise', 'Neutralização', 'Oxidação', 'Polimerização'],
+    alternativa_correta: 'Hidrólise',
+  },
+  {
+    id: 9,
+    enunciado: 'Os ésteres são frequentemente utilizados como?',
+    alternativas: [
+      'Aromatizantes',
+      'Aditivos combustíveis',
+      'Fertilizantes',
+      'Antibióticos',
+    ],
+    alternativa_correta: 'Aromatizantes',
+  },
+  {
+    id: 10,
+    enunciado:
+      'Qual é o nome do éster formado pela reação entre ácido butanoico e metanol?',
+    alternativas: [
+      'Butanoato de metila',
+      'Metanoato de butila',
+      'Metanoato de etila',
+      'Butanoato de etila',
+    ],
+    alternativa_correta: 'Butanoato de metila',
+  },
+  {
+    id: 11,
+    enunciado:
+      'Os ácidos carboxílicos podem ser obtidos por qual tipo de reação?',
+    alternativas: [
+      'Oxidação de álcoois',
+      'Hidrólise de ésteres',
+      'Hidrogenação de alcenos',
+      'Substituição nucleofílica',
+    ],
+    alternativa_correta: 'Oxidação de álcoois',
+  },
+  {
+    id: 12,
+    enunciado: 'Os ésteres possuem qual grupo funcional característico?',
+    alternativas: ['-COO-', '-OH', '-NH2', '-COH'],
+    alternativa_correta: '-COO-',
+  },
+  {
+    id: 13,
+    enunciado: 'Qual das seguintes substâncias é um éster?',
+    alternativas: ['Acetato de etila', 'Ácido fórmico', 'Etanol', 'Glicerol'],
+    alternativa_correta: 'Acetato de etila',
+  },
+  {
+    id: 14,
+    enunciado:
+      'A hidrólise de um éster em meio ácido resulta na formação de quais compostos?',
+    alternativas: [
+      'Ácido carboxílico e álcool',
+      'Aldeído e álcool',
+      'Éter e água',
+      'Amida e ácido',
+    ],
+    alternativa_correta: 'Ácido carboxílico e álcool',
+  },
+  {
+    id: 15,
+    enunciado: 'Os ácidos carboxílicos podem ser reduzidos a quais compostos?',
+    alternativas: ['Aldeídos e álcoois', 'Ésteres', 'Cetonas', 'Aminas'],
+    alternativa_correta: 'Aldeídos e álcoois',
+  },
+  {
+    id: 16,
+    enunciado: 'A que classe de compostos pertencem os ésteres?',
+    alternativas: [
+      'Derivados de ácidos carboxílicos',
+      'Hidrocarbonetos',
+      'Aldeídos',
+      'Cetonas',
+    ],
+    alternativa_correta: 'Derivados de ácidos carboxílicos',
+  },
+  {
+    id: 17,
+    enunciado:
+      'Os ésteres podem ser obtidos pela reação entre quais compostos?',
+    alternativas: [
+      'Ácido carboxílico e álcool',
+      'Cetona e álcool',
+      'Aldeído e amina',
+      'Álcool e éter',
+    ],
+    alternativa_correta: 'Ácido carboxílico e álcool',
+  },
+  {
+    id: 18,
+    enunciado: 'Qual é o nome do ácido carboxílico presente no vinagre?',
+    alternativas: [
+      'Ácido acético',
+      'Ácido butanoico',
+      'Ácido fórmico',
+      'Ácido benzóico',
+    ],
+    alternativa_correta: 'Ácido acético',
+  },
+  {
+    id: 19,
+    enunciado: 'Os ésteres são responsáveis por quais propriedades em frutas?',
+    alternativas: [
+      'Aroma e sabor',
+      'Cor e textura',
+      'Dureza e resistência',
+      'Amargor e toxicidade',
+    ],
+    alternativa_correta: 'Aroma e sabor',
+  },
+  {
+    id: 20,
+    enunciado:
+      'A reação de saponificação de um éster forma qual composto principal?',
+    alternativas: ['Sabão', 'Álcool', 'Aldeído', 'Cetonas'],
+    alternativa_correta: 'Sabão',
+  },
 ]
 
 import { NextApiRequest, NextApiResponse } from 'next'

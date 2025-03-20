@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
+import CustomCard from './cardPoints'
 
 interface Question {
   id: number
@@ -15,7 +16,8 @@ export default function RenderQuestions({
 }) {
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [responses, setResponses] = useState<Record<number, string>>({})
-
+  const [points, setPoints] = useState(0)
+  const [showCard, setShowCard] = useState(false)
   const handleNextQuestion: React.MouseEventHandler<HTMLButtonElement> = () => {
     setCurrentQuestion(currentQuestion + 1)
   }
@@ -47,6 +49,8 @@ export default function RenderQuestions({
       }
 
       const data = await response.json()
+      setPoints(data.correctCount)
+      setShowCard(true)
       console.log('Resposta do servidor:', data)
     } catch (error) {
       console.error('Erro ao enviar os dados:', error)
@@ -104,6 +108,7 @@ export default function RenderQuestions({
             </div>
           )
       )}
+      {showCard === true && <CustomCard points={points} questions={questions}></CustomCard>}
     </form>
   )
 }
