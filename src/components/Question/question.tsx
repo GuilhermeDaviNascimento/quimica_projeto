@@ -94,7 +94,7 @@ export default function RenderQuestions({
                     </label>
                   </li>
                 ))}
-                {index + 1 < questions.length - 1 && (
+                {index < questions.length - 1 && (
                   <Button
                     onClick={handleNextQuestion}
                     disabled={!isAnswerSelected(question.id)}
