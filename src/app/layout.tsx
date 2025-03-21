@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body className='m-0 flex justify-center items-center p-0 w-lvw h-lvh'>{children}</body>
     </html>
   )
 }
