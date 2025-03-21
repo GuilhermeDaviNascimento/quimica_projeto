@@ -70,8 +70,9 @@ export default function RenderQuestions({
         (question, index) =>
           index === currentQuestion && (
             <div key={index} className="flex flex-col">
-              <div className="text-3xl mb-5">
+              <div className="text-3xl mb-3 flex gap-3 flex-col">
                 <h1>{question.enunciado}</h1>
+                <p className='text-sm'>{index} de {questions.length}</p>
               </div>
               <ul>
                 {question.alternativas.map((alternativa, altIndex) => (
